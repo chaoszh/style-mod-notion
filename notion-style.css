@@ -1,37 +1,77 @@
+.notion-table-view-header-cell {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+div.notion-selectable. notion-collection_view-block:first-child {
+
+}
+
+div.notion-table-view > div > div:nth-child(1) {
+  height: 23px !important;
+  
+}
+div.notion-table-view > div > div > div > div:nth-child(1) {
+  xheight: 23px !important;
+  xbackground: red;
+  border-left: 1px solid rgb(237, 237, 236);
+}
+
+
+
+#notion-app > div > div.notion-cursor-listener > div.notion-frame > div.notion-scroller.vertical.horizontal > div.notion-scroller > div > div > div:nth-child(2) {
+  height: 23px !important;
+}
+
+
+.notion-table-view-header-cell div {
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  xline-height: 100% !important;
+}
+
 .notion-selectable.notion-page-block.notion-collection-item div {
   padding: 0px 0px 0px 1px !important;
   font-size: 9px;
   xbackground: red;
-  min-height: 10px !important;
+  min-height: 12px !important;
   line-height: 100% !important;
   height: 11px
 }
-
-/** Bring this back **/
-.notion-record-icon {
-  display: none;
+.notion-table-view .notion-record-icon {
+  xdisplay: none;
+  cjustify-content: left !important;
+  width: 10px;
 }
 
+.notion-table-view
 .notion-selectable.notion-page-block.notion-collection-item svg {
-    width: 12px !important;
-    height: 12px !important;
+    width: 10px !important;
+    height: 10px !important;
+ 
     xdisplay: block;
-    xfill: rgba(55, 53, 47, 0.8);
+    fill: rgba(4, 103, 250, 0.8);
     xflex-shrink: 0;
     xbackface-visibility: hidden;
+    xbackground: blue;
 }
+
 
 /** Font size */
 .notion-table-view div div div span {
  xfont-size: 12px; 
  font-weight: 400
+
 }
+
 
 /** Icon opacity */
 .notion-table-view div div div svg {
  opacity: .5
 }
 
+/
 .notion-table-view .notion-selectable div div:nth-of-type(300) {
   font-size: 9px
 }
